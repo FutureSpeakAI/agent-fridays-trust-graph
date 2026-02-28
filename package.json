@@ -1,0 +1,43 @@
+{
+  "name": "trust-graph",
+  "version": "1.0.0",
+  "description": "Multi-dimensional trust scoring engine for people — hermeneutic re-evaluation, fuzzy person resolution, evidence tracking, and context generation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "trust",
+    "credibility",
+    "person-resolution",
+    "fuzzy-matching",
+    "evidence-tracking",
+    "hermeneutic",
+    "knowledge-graph",
+    "people-graph",
+    "trust-scoring",
+    "multi-dimensional"
+  ],
+  "author": "FutureSpeak AI <noreply@futurespeak.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FutureSpeakAI/trust-graph.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.5.0"
+  }
+}
