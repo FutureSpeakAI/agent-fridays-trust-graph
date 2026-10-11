@@ -1,3 +1,5 @@
+> **This project now lives on in [Agent-Friday](https://github.com/FutureSpeakAI/Agent-Friday), archived 2026-10-11.**
+
 # Trust Graph Engine
 
 Multi-dimensional trust scoring engine for people in your world. Models credibility across domains with evidence tracking, fuzzy person resolution, and hermeneutic re-evaluation — each new observation re-evaluates the whole picture.
